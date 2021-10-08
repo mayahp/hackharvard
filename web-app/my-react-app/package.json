@@ -11,7 +11,8 @@
     "build:js": "rollup -c",
     "serve": "live-server dist/",
     "dev": "npm-run-all -p serve watch:html watch:css watch:js",
-    "build": "npm-run-all -p build:html build:css build:js"
+    "build": "npm-run-all -p build:html build:css build:js",
+    "start": "node src/js/app.js"
   },
   "author": "",
   "license": "MIT",
